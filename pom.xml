@@ -12,7 +12,7 @@
     <name>Android vCard Library</name>
     <description>Java library for manipulating vCard files (from Android)</description>
 
-	<url>http://code.google.com/p/android-vcard/</url>
+	<url>https://github.com/grmartin/android-vcard</url>
 
 	<licenses>
 		<license>
@@ -23,8 +23,8 @@
 	</licenses>
 
 	<scm>
-		<url>https://android-vcard.googlecode.com/hg/</url>
-		<connection>scm:hg:https://android-vcard.googlecode.com/hg/</connection>
+		<url>https://github.com/grmartin/android-vcard</url>
+		<connection>scm:git:https://github.com/grmartin/android-vcard.git</connection>
 	</scm>
 
     <dependencies>
@@ -96,12 +96,16 @@
                         <goals>
                             <goal>jar</goal>
                         </goals>
+						<configuration>
+							<failOnError>false</failOnError>
+						</configuration>
                     </execution>
                 </executions>
             </plugin>
         </plugins>
     </build>
 
+<!-- 
 	<distributionManagement>
 		<snapshotRepository>
 			<id>sonatype-oss-snapshots</id>
@@ -114,5 +118,5 @@
 			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
 		</repository>
 	</distributionManagement>
-	
+ -->
 </project>

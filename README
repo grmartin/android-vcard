@@ -1,48 +1,53 @@
-README for android-vcard
-========================
+# Readme for android-vcard
 
 Android-vcard is a Java library for manipulating vCard files. The source code 
 was extracted from the Google Android project.
 
 The project is licensed under Apache License 2.0.
 
-Program links:
-Android-vcard homepage. . . http://code.google.com/p/android-vcard/
-Source code . . . . . . . . http://code.google.com/p/android-vcard/source/checkout
-Google Android. . . . . . . http://source.android.com/
+## Program links:
 
-Program files:
-ChangeLog       - Description of latest changes.
-license.txt     - Library license.
-README          - This file.
-upstream.md5    - List of md5 hashes of upstream files for detecting changes.
-examples/       - Usage examples.
-lib/            - Program compilation and runtime libraries.
-nbproject/      - Project files for the NetBeans IDE.
-src/            - Program sources.
-test/           - Program test sources.
+### Original:
+
+Android-vcard homepage	http://code.google.com/p/android-vcard/<br/>
+Source code				http://code.google.com/p/android-vcard/source/checkout<br/>
+
+### Current:
+
+Android-vcard homepage	https://github.com/grmartin/android-vcard<br/>
+Source code 			https://github.com/grmartin/android-vcard.git<br/>
+Google Android			http://source.android.com/<br/>
+
+## Program files:
+ChangeLog       - Description of latest changes.<br/>
+license.txt     - Library license.<br/>
+README          - This file.<br/>
+upstream.md5    - List of md5 hashes of upstream files for detecting changes.<br/>
+examples/       - Usage examples.<br/>
+lib/            - Program compilation and runtime libraries.<br/>
+nbproject/      - Project files for the NetBeans IDE.<br/>
+src/            - Program sources.<br/>
+test/           - Program test sources.<br/>
 
 Project root directory can be opened by NetBeans IDE as its project.
 
 
-Compiling library
-=================
+## Compiling library
 
 In sources root directory (where build.xml is located) run this command:
 
- $ ant clean jar
+	$ ant clean jar
 
-All the sources should be compiled in the build/ directory. In the dist/
-directory the resulting android-vcard.jar should be created, together with all 
+All the sources should be compiled in the ```build/``` directory. In the ```dist/```
+directory the resulting ```android-vcard.jar``` should be created, together with all 
 needed libraries.
 
-Packaging library
-=================
+## Packaging library
 
 You can run command:
 
- $ ant package
+	$ ant package
  
-to obtain library in a form of a distribution package in the dist/ directory.
+to obtain library in a form of a distribution package in the ```dist/``` directory.
 
 
